@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Masum Osman Khan</title>
 
         <!-- Fonts -->
@@ -36,6 +35,9 @@
                         <a href="https://www.facebook.com/profile.php?id=100002783125800">Facebook</a>
                         <a href="mailto:ogkmasum@gmail.com?">Mail Masum</a>
                     </div>
+                    <br>
+                    
+                    <button class="button" style="vertical-align:middle"><span>resumé</span></button>
                 </div>   
             </div>
         </div>
