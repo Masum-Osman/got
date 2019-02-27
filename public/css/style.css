@@ -40,8 +40,8 @@ html, body {
     padding-right:10px;
     padding-left:10px;
     padding-top:10px;
-    /* padding-bottom:10px; */
-    font-size: 20px;
+    padding-bottom:10px; 
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
@@ -52,12 +52,13 @@ a:hover {
     color: aqua;
 }
 
-#fullstack:hover {
-    color: rgb(116, 112, 148);
-}
+/* #fullstack:hover {
+    color: yellow;
+} */
 
 .m-b-md {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #imgHolder{
@@ -65,7 +66,7 @@ a:hover {
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    background-size: cover; 
+    background-size: cover;
 }
 
 #wrapper{
@@ -73,3 +74,43 @@ a:hover {
     height:100%;
     width:100%;
 }
+
+.button {
+    display: inline-block;
+    border-radius: 40px;
+    background-color: #132843;
+    border: 2px solid #4CAF50;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
