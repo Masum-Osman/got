@@ -31,13 +31,13 @@
                     <div class="links">
                         <a href="https://github.com/Masum-Osman">GitHub</a>
                         <a href="https://stackoverflow.com/users/7086610/masum-osman-khan">Stackoverflow</a>
-                        <a href="https://www.linkedin.com/in/masum-osman-khan-b36826b9/">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/md-osman-gani-khan-masum-b36826b9/">LinkedIn</a>
                         <a href="https://www.facebook.com/profile.php?id=100002783125800">Facebook</a>
                         <a href="mailto:ogkmasum@gmail.com?">Mail Masum</a>
                     </div>
                     <br>
                     
-                    <button class="button" style="vertical-align:middle"><span>resumé</span></button>
+                    <a href="/resume/Osman-Resume.pdf" download><button class="button" style="vertical-align:middle"><span>resumé</span></button></a>
                 </div>   
             </div>
         </div>
