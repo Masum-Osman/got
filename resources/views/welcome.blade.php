@@ -20,7 +20,7 @@
 
 
 <body>
-    <div id="imgHolder">
+    {{-- <div id="imgHolder"> --}}
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div id="wrapper">
@@ -41,6 +41,6 @@
                 </div>   
             </div>
         </div>
-    </div>        
+    {{-- </div>         --}}
 </body>
 </html>
