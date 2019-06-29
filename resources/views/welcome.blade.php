@@ -27,12 +27,17 @@
                     <div class="title m-b-md">
                         Osman gani khan Masum
                     </div>
+
+                    {{-- <div class="title m-b-md">
+                        Hey...<span> I'm Masum</span>
+                    </div> --}}
+
                     <h1 id="fullstack">Full Stack Developer | Backend Enthusiast</h1>
                     <div class="links">
-                        <a href="https://github.com/Masum-Osman">GitHub</a>
-                        <a href="https://stackoverflow.com/users/7086610/masum-osman-khan">Stackoverflow</a>
-                        <a href="https://www.linkedin.com/in/md-osman-gani-khan-masum-b36826b9/">LinkedIn</a>
-                        <a href="https://www.facebook.com/profile.php?id=100002783125800">Facebook</a>
+                        <a href="http://bit.ly/2LsDGyz"  target="_blank">GitHub</a>
+                        <a href="http://bit.ly/2XclDie"  target="_blank">Stackoverflow</a>
+                        <a href="http://bit.ly/2XgJ4f3"  target="_blank">LinkedIn</a>
+                        <a href="http://bit.ly/2FGwlYa"  target="_blank">Facebook</a>
                         <a href="mailto:ogkmasum@gmail.com?">Mail Masum</a>
                     </div>
                     <br>
