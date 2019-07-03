@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet"> 
 
         <script type="text/javascript">
             $(document).ready(function(){
@@ -24,14 +25,17 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div id="wrapper">
-                    <div class="title m-b-md">
-                        Osman gani khan Masum
-                    </div>
-
                     {{-- <div class="title m-b-md">
-                        Hey...<span> I'm Masum</span>
+                        Osman gani khan Masum
                     </div> --}}
 
+                    <div class="title m-b-md">
+                        <span style="font-family: 'Satisfy', cursive; ">Hey, </span> <span style="font-size:37px">I'm</span> <span style="font-size:55px">Masum</span>
+                    </div>
+
+                    <h3 style="padding-left:90px">glad to see you here !</h3>
+                    <br>
+                    {{-- <h5 style="padding-right: 450px">i am a</h5> --}}
                     <h1 id="fullstack">Full Stack Developer | Backend Enthusiast</h1>
                     <div class="links">
                         <a href="http://bit.ly/2LsDGyz"  target="_blank">GitHub</a>
@@ -42,7 +46,8 @@
                     </div>
                     <br>
                     
-                    <a href="/resume/Osman-Resume.pdf" download><button class="button" style="vertical-align:middle"><span>resumé</span></button></a>
+                    {{-- <iframe href="/resume/Osman-Resume.pdf" style="width: 100%;height: 100%;border: none;"><button class="button" style="vertical-align:middle"><span>resumé</span></button></iframe>  --}}
+                    <a href="/resume/Osman-Resume.pdf"><button class="button" style="vertical-align:middle"><span>resumé</span></button></a>
                 </div>   
             </div>
         </div>
